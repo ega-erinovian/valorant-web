@@ -1,0 +1,26 @@
+/* Agents Icon */
+.agent-icon{
+    width: 6rem;
+    height: 6rem;
+    margin-right: .5rem;
+    border: solid 2px #777;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    transition: all ease-in-out .1s;
+    -webkit-transition: all ease-in-out .1s;
+    -moz-transition: all ease-in-out .1s;
+    -ms-transition: all ease-in-out .1s;
+    -o-transition: all ease-in-out .1s;
+}
+
+.agent-icon:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    border: solid 2px var(--valo-red);
+}
+
+.agent-icon.agent-selected{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    border: solid 2px var(--valo-red);
+}

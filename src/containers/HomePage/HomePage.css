@@ -1,0 +1,27 @@
+/* Header */
+.header-section {
+  height: 100vh;
+  width: 100%;
+  margin-top: 79px;
+}
+  
+.header-content {
+  height: 78%;
+  background-image: url("../../../public/assets/img/bg-header.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#agentArt {
+    height: 85%;
+    width: 100%;
+    top: 179px;
+    left: 0;
+    position: absolute;
+    transition: all ease-in-out .3s;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -ms-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+  }
+

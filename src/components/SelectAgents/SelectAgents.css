@@ -1,0 +1,16 @@
+.select-agent-cont{
+    width: 100%;
+    margin: 10rem 0;
+}
+
+.select-agent-cont h1{
+    font-size: 5rem;
+    border-left: solid 1rem var(--valo-red);
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.select-agent-cont .select-agents-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
