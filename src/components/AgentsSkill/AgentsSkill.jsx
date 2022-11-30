@@ -18,11 +18,11 @@ export default class SelectAgentsComp extends Component {
     const { agents } = this.state;
     return (
       <section className="select-agent-cont" id="agents">
-        <Container>
+        <div> {/* Container */}
           <h1>
             <strong>Select An Agent</strong>
           </h1>
-          <Row>
+          <div>
             {agents &&
               agents.map((agent) => {
                 if(agentIndex-1){
@@ -39,8 +39,8 @@ export default class SelectAgentsComp extends Component {
                     <AgentIcon key={agent.id} agentId={ agent.id } agentName={ agent.agentName } classIcon=""/>
                   )};
               })}
-          </Row>
-        </Container>
+          </div>
+        </div>
       </section>
     );
   }

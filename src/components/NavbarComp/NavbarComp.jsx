@@ -8,7 +8,7 @@ import ValoLogo from "../../assets/logo.webp"
 
 const NavbarComp = () => {
   return (
-    <div className='navbar body-padding'>
+    <div className='navbar container'>
         <div className='nav-logo'>
             <img src={ValoLogo} alt="Valorant Logo"/>
         </div>

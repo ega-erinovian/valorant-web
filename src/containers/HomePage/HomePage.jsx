@@ -19,7 +19,7 @@ export default class HomeComp extends Component {
             <img src={AGENT_ART_URL + "All.webp"} alt="header-char"/>
           </div>
         </section>
-        <div className="body-padding">
+        <div className="container">
           <SelectAgents />
         </div>
       </div>

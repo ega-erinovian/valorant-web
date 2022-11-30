@@ -1,0 +1,21 @@
+.agent-description-section{
+    display: flex;
+    flex-direction: column;
+    top: 79px;
+}
+
+.agent-description-section .agent-role-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.agent-description-section .agent-role-wrapper img{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+.agent-description-section p{
+    text-align: justify;
+    margin: 1rem 0;
+}

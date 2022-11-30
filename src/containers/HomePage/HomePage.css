@@ -23,5 +23,6 @@
     -moz-transition: all ease-in-out .3s;
     -ms-transition: all ease-in-out .3s;
     -o-transition: all ease-in-out .3s;
+    z-index: 90;
   }
 
