@@ -12,7 +12,7 @@ import SelectAgents from "../../components/SelectAgents/SelectAgents";
 export default class HomeComp extends Component {
   render() {
     return (
-      <div>
+      <>
         <section className="header-section">
           <div className="header-content"></div>
           <div className="img-container" id="agentArt">
@@ -22,7 +22,7 @@ export default class HomeComp extends Component {
         <div className="container">
           <SelectAgents />
         </div>
-      </div>
+      </>
     );
   }
 }

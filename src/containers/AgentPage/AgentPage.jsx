@@ -56,7 +56,7 @@ export default class AgentsComp extends Component {
                     </div>
                 </div>
             </div>
-          {/* <AgentSkill agentName={agents[agentIndex].agentName}  /> */}
+            <AgentSkill agentName={agents[agentIndex].agentName}  />
             <div className="container">
                 <SelectAgentsComp agentIndex={agentIndex} />
             </div>

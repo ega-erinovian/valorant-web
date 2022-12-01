@@ -21,7 +21,7 @@ export default class SelectAgentsComp extends Component {
     const { agents } = this.state;
     return (
       <section className="select-agent-cont" id="agents">
-        <h1><strong>Select An Agent</strong></h1>
+        <h1><strong>SELECT AN AGENT</strong></h1>
         <div className="select-agents-grid">
           {agents &&
             agents.map((agent) => {

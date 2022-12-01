@@ -1,0 +1,113 @@
+.agent-skill .agent-skill-title{
+  font-size: 5rem;
+  margin-top: 10rem;
+  margin-bottom: -1.4rem;
+  margin-left: -10px;
+}
+
+.agent-skill-container {
+  border: 1px solid #555;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: var(--valo-white);
+  box-shadow: -10px 0px 0px 0px var(--valo-red);
+  margin-bottom: 10rem;
+}
+
+.agent-icon-desc-container{
+    padding: 3rem 2rem;
+    flex: 40%;
+}
+
+.skill-icon-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-icon-wrapper{
+    margin-bottom: 1rem;
+}
+
+.skill-icon-wrapper img{
+    padding: .5rem;
+}
+
+#agentSkill {
+  height: 100%;
+  width: 600px;
+  object-fit: cover;
+}
+
+.agent-skill-icon {
+  border: 1px solid #999;
+  filter: brightness(0.7);
+  -webkit-filter: brightness(0.7);
+  width: 90px;
+  height: 90px;
+  transition: all ease-in-out 0.1s;
+  -webkit-transition: all ease-in-out 0.1s;
+  -moz-transition: all ease-in-out 0.1s;
+  -ms-transition: all ease-in-out 0.1s;
+  -o-transition: all ease-in-out 0.1s;
+}
+
+.agent-skill-icon:hover {
+  border: 1px solid #000;
+  filter: brightness(1);
+  -webkit-filter: brightness(1);
+  background-color: var(--valo-red);
+  cursor: pointer;
+}
+
+.agent-skill-icon.skill-selected {
+  border: 2px solid #000;
+  filter: brightness(0);
+  -webkit-filter: brightness(0);
+}
+.agent-skill-icon.skill-selected:hover {
+  background-color: var(--valo-red);
+  filter: brightness(1);
+  -webkit-filter: brightness(1);
+  cursor: pointer;
+}
+
+.skill-description .skill-title-wrapper{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.skill-badges-key{
+    padding: .2rem .7rem;
+    border: none;
+    background-color: #999;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-right: .4rem;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+}
+
+.skill-description h3{
+  margin-bottom: 1.5rem;
+}
+
+.agent-skill-vid-container{
+    flex: 60%;
+}
+
+.agent-skill-vid{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.skill-description .skill-badges-key:hover{
+    cursor: pointer;
+    background-color: var(--valo-red) !important;
+}
