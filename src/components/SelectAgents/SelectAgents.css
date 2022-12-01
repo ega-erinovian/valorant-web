@@ -8,6 +8,7 @@
     border-left: solid 1rem var(--valo-red);
     margin-bottom: 1rem;
     padding-left: 1rem;
+    letter-spacing: -.3rem;
 }
 
 .select-agent-cont .select-agents-grid{
