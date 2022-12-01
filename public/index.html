@@ -43,15 +43,23 @@
   <script>
     window.addEventListener("scroll", () => {
       let agentArt = document.getElementById("agentArt");
-      let value = window.scrollY;
+      // let value = window.scrollY;
+    
+      // if(value < 179){
+      //   agentArt.style.top = 139 + "px";
+      // }
       
-      if(value < 179){
-        agentArt.style.top = 139 + "px";
-      }
-      
-      if (value === 0) {
-        agentArt.style.top = 179 + "px";
-      }
+      // if (value === 0) {
+      //   agentArt.style.top = 179 + "px";
+      // }
+
+      // Agent Parallax Effect
+      window.addEventListener('scroll', () => {
+        let scroll = window.pageYOffset * 0.5;
+
+        let speed = agentArt.dataset.speed;
+        agentArt.style.transform = `translateY(${scroll * speed}px)`;
+      })
     })
   </script>
 </html>

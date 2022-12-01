@@ -42,8 +42,8 @@ export default class AgentsComp extends Component {
             </video>
             <div className="header-overlay"></div>
             <div className="agents-header-section text-white">
-                <div className="img-container w-100 d-flex justify-content-center" id="agentArt">
-                    <img src={AGENT_ART_URL + currentURL[4] + ".webp"} alt="header-char"  />
+                <div className="img-container w-100 d-flex justify-content-center" id="agentArt" data-speed="-0.2">
+                    <img src={AGENT_ART_URL + currentURL[4] + ".webp"} alt="header-char"  id="agentArt_img"/>
                 </div>
             </div>
             <div className="container">
