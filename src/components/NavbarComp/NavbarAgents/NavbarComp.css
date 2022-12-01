@@ -1,0 +1,35 @@
+/* Navbar */
+.navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    min-width: 100%;
+    background-color: var(--valo-dark);
+    color: var(--valo-red);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    z-index: 99;
+}
+
+.navbar .nav-logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.navbar ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    font-weight: bold;
+    color: var(--valo-red);
+    cursor: pointer;
+}
+
+.navbar ul li a:hover{
+    color: var(--valo-dark-red);
+}

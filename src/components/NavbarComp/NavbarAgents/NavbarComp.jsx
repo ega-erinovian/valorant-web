@@ -4,7 +4,7 @@ import React from 'react'
 import "./NavbarComp.css"
 
 // import image
-import ValoLogo from "../../assets/logo.webp"
+import ValoLogo from "../../../assets/logo.webp"
 
 const NavbarComp = () => {
   return (
@@ -14,7 +14,6 @@ const NavbarComp = () => {
         </div>
         <ul>
             <li><a href='/'>Home</a></li>
-            <li><a href='#agents'>Agents</a></li>
             <li><a href='#'>Maps</a></li>
             <li><a href='#'>About</a></li>
         </ul>
