@@ -14,6 +14,7 @@
   background-color: var(--valo-white);
   box-shadow: -10px 0px 0px 0px var(--valo-red);
   margin-bottom: 10rem;
+  background-color: var(--valo-text);
 }
 
 .agent-icon-desc-container{

@@ -4,4 +4,39 @@ footer{
     background-size: cover;
     min-width: 100vw;
     height: 60vh;
+    display: flex;
+    align-items: center;
+    color: var(--valo-text);
+}
+
+footer .footer-content h1{
+    font-size: 5rem;
+    letter-spacing: -0.15rem;
+}
+
+footer .footer-content h1 span{
+    position: relative;
+    top: -3.5rem;
+}
+
+footer .footer-content ul{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -4rem;
+}
+
+footer .footer-content ul li svg{
+    width: 2.5rem;
+    height: 2.5rem;
+    color: var(--valo-text);
+}
+
+footer .footer-content ul li svg:hover{
+    color: #b2b2b2;
+}
+
+footer .footer-content p{
+    position: relative;
+    top: -3rem;
 }

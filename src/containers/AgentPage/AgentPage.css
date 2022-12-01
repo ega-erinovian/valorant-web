@@ -21,7 +21,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff;
+  color: var(--valo-text);
 }
 
 .agent-header-text .agent-desc-container{
