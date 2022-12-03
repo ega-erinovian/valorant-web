@@ -34,7 +34,7 @@ const Footer = () => {
                     </li>
                 </ul>
                 <p>All the images and videos are property of Riot Games™</p><br/>
-                <p><strong>2022 || ega-erinovian</strong></p>
+                <p><strong>2022 | ega-erinovian</strong></p>
             </div>
         </footer>
     </>
