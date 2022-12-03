@@ -13,16 +13,24 @@ const Footer = () => {
                 <h1>VALORANT<br/><span>AGENT</span></h1>
                 <ul>
                     <li>
-                        <a href="#"><FaInstagram /></a>
+                        <a href="https://www.instagram.com/egaerinovian/" target="_blank" rel="noreferrer">
+                            <FaInstagram />
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><FaLinkedin /></a>
+                        <a href="https://www.linkedin.com/in/ega-erinovian/" target="_blank" rel="noreferrer">
+                            <FaLinkedin />
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><FaGithub /></a>
+                        <a href="https://github.com/ega-erinovian" target="_blank" rel="noreferrer">
+                            <FaGithub />
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><FaGlobe /></a>
+                        <a href="https://app.netlify.com/teams/egaputra69/overview" target="_blank" rel="noreferrer">
+                            <FaGlobe />
+                        </a>
                     </li>
                 </ul>
                 <p>All the images and videos are property of Riot Games™</p><br/>

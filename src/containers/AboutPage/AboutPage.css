@@ -1,0 +1,17 @@
+.about-container{
+    margin: 10rem 0;
+}
+
+.about-container h1{
+    font-size: 4rem;
+}
+
+.about-container p a{
+    font-weight: 500;
+    color: var(--valo-red);
+}
+
+.about-container p a:hover{
+    font-weight: 500;
+    color: var(--valo-dark-red);
+}

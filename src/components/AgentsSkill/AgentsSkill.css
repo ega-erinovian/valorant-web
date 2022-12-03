@@ -7,7 +7,7 @@
 }
 
 .agent-skill-container {
-  border: 1px solid #555;
+  border: 1px solid #b2b2b2;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -42,7 +42,7 @@
 }
 
 .agent-skill-icon {
-  border: 1px solid #999;
+  border: 1px solid #b2b2b2;
   filter: brightness(0.7);
   -webkit-filter: brightness(0.7);
   width: 90px;
