@@ -8,17 +8,30 @@ import ValoLogo from "../../assets/logo.webp"
 
 const NavbarComp = () => {
   return (
-    <div className='navbar container'>
-        <div className='nav-logo'>
-            <img src={ValoLogo} alt="Valorant Logo"/>
+    <>
+      <div class="nav">
+        <input type="checkbox" id="nav-check"/>
+        <div class="nav-header">
+          <div class="nav-title">
+            <img src={ValoLogo} alt="Logo" />
+          </div>
         </div>
-        <ul>
-            <li><a href='/'>Home</a></li>
-            <li><a href='#agents'>Agents</a></li>
-            <li><a href='#'>Maps</a></li>
-            <li><a href='/About'>About</a></li>
-        </ul>
-    </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="#agents">Agents</a>
+          <a href="/Maps">Maps</a>
+          <a href="/About">About</a>
+        </div>
+      </div>
+    </>
   )
 }
 

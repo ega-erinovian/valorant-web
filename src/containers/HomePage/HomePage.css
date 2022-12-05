@@ -1,8 +1,8 @@
 /* Header */
 .header-section {
   height: 100vh;
-  width: 100%;
-  margin-top: 79px;
+  min-width: 100vw;
+  margin-top: 3.5rem;
 }
   
 .header-content {
@@ -13,15 +13,25 @@
 }
 
 #agentArt {
-    height: 54rem;
-    width: 120rem;
-    top: 179px;
-    left: 0;
-    position: absolute;
-    transition: all ease-in-out .3s;
-    -webkit-transition: all ease-in-out .3s;
-    -moz-transition: all ease-in-out .3s;
-    -ms-transition: all ease-in-out .3s;
-    -o-transition: all ease-in-out .3s;
-    z-index: 90;
-  }
+  height: 54rem;
+  width: 120rem;
+  top: 9rem;
+  left: 0;
+  position: absolute;
+  transition: all ease-in-out .3s;
+  -webkit-transition: all ease-in-out .3s;
+  -moz-transition: all ease-in-out .3s;
+  -ms-transition: all ease-in-out .3s;
+  -o-transition: all ease-in-out .3s;
+  z-index: 90;
+}
+
+/**
+ * ----------------------------------------
+ * Medium Mobile Device Media Queries
+ * ----------------------------------------
+ */
+
+@media screen and (min-width: 1000px){
+  
+}
