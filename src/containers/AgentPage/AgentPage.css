@@ -61,17 +61,11 @@
   .agent-header-text{
     width: 87%;
   }
-  .agent-header-text .agent-desc-container{
-    width: 25%;
-  }
 }
 
 @media screen and (max-width: 1024px){
   .agent-header-text{
     width: 87%;
-  }
-  .agent-header-text .agent-desc-container{
-    width: 20%;
   }
 }
 

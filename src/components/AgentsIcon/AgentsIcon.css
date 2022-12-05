@@ -1,7 +1,7 @@
 /* Agents Icon */
 .agent-icon{
-    width: 6rem;
-    height: 6rem;
+    width: 7.2rem;
+    height: 7.2rem;
     margin-right: .5rem;
     border: solid 2px #777;
     filter: grayscale(1);
@@ -23,4 +23,11 @@
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
     border: solid 2px var(--valo-red);
+}
+
+@media screen and (max-width: 395px){
+    .agent-icon{
+        width: 6.4rem;
+        height: 6.4rem;
+    }
 }

@@ -3,6 +3,7 @@ footer{
     background-position: center top;
     background-size: cover;
     min-width: 100vw;
+    overflow-x: hidden;
     height: 60vh;
     display: flex;
     align-items: center;
@@ -39,4 +40,24 @@ footer .footer-content ul li svg:hover{
 footer .footer-content p{
     position: relative;
     top: -3rem;
+}
+
+@media screen and (max-width: 600px){
+    footer{
+        background-position: center left;
+    }
+    footer .footer-content h1{
+        font-size: 3rem;
+    }
+    
+    footer .footer-content h1 span{
+        position: relative;
+        top: -2rem;
+    }
+    footer .footer-content ul{
+        top: -2rem;
+    }
+    footer .footer-content p{
+        top: -1rem;
+    }
 }

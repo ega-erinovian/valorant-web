@@ -16,7 +16,6 @@
 }
 
 .agent-description-section p{
-    text-align: justify;
     margin: 1rem 0;
 }
 
@@ -39,5 +38,11 @@
     .agent-description-section .agent-role-wrapper img{
         width: 3rem;
         height: 3rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .agent-description-section h1{
+        font-size: 3rem;
     }
 }

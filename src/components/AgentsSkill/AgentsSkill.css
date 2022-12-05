@@ -67,6 +67,7 @@
   filter: brightness(0);
   -webkit-filter: brightness(0);
 }
+
 .agent-skill-icon.skill-selected:hover {
   background-color: var(--valo-red);
   filter: brightness(1);
@@ -110,6 +111,13 @@
 }
 
 .skill-description .skill-badges-key:hover{
-    cursor: pointer;
-    background-color: var(--valo-red) !important;
+  cursor: pointer;
+  background-color: var(--valo-red) !important;
+}
+
+@media screen and (max-width: 600px){
+  .agent-skill-icon {
+    width: 4rem;
+    height: 4rem;
+  }  
 }
