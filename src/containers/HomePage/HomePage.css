@@ -1,20 +1,23 @@
 /* Header */
 .header-section {
   height: 100vh;
-  min-width: 100vw;
+  width: 100%;
   margin-top: 3.5rem;
 }
   
 .header-content {
   height: 78%;
+  min-width: 100vw;
   background-image: url("../../../public/assets/img/bg-header.webp");
   background-position: center;
   background-size: cover;
 }
 
 #agentArt {
-  height: 54rem;
-  width: 120rem;
+  display: flex;
+  justify-content: center;
+  height: 52rem;
+  width: 100vw;
   top: 9rem;
   left: 0;
   position: absolute;
@@ -32,6 +35,8 @@
  * ----------------------------------------
  */
 
-@media screen and (min-width: 1000px){
-  
+@media screen and (max-width: 700px){
+  #agentArt{
+    top: 7rem;
+  }
 }

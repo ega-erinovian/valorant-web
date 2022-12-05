@@ -54,15 +54,7 @@ body {
 }
 
 .container{
-  padding: 0 20rem;
-}
-
-.img-container {
-  height: 100%;
-  width: 100vw;
-  overflow-x: hidden;
-  display: flex;
-  justify-content: center;
+  padding: 0 15vw;
 }
 
 h1,
@@ -83,7 +75,13 @@ li{
   top: 0;
   left: 0;
   background-color: #00000050;
-  min-width: 100%;
+  min-width: 100vw;
   height: 90%;
   z-index: -1;
+}
+
+@media screen and (max-width: 1366px){
+  .container{
+    padding: 0 7.5vw;
+  }
 }
